@@ -2,6 +2,7 @@
 
 # CSS output
 /src/styles/**.css
+/src/styles/**.css.map
 
 # dependencies
 /node_modules
