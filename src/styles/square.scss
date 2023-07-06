@@ -1,0 +1,41 @@
+// $red: 0;
+// $green:0;
+// $blue:0;
+
+// $random-red: random(255);
+// $random-green: random(255);
+// $random-blue: random(255);
+
+// @keyframes random-bg {
+//     from{
+//         $red: random(255);
+//         $green: random(255);
+//         $blue: random(255);
+//         background-color: rgb($red,$green,$blue);
+//     }
+//     to {
+//         $random-red: random(255);
+//         $random-green: random(255);
+//         $random-blue: random(255);
+//         $red : $random-red;
+//         $green:$random-green;
+//         $blue:$random-blue;
+//         background-color: rgb($random-red, $random-green, $random-blue);
+//     }
+// }
+
+// @mixin color-change {
+//     $random-red: random(255);
+//     $random-green: random(255);
+//     $random-blue: random(255);
+//     background-color: rgb($random-red, $random-green, $random-blue);
+// }
+
+.square {
+    width: 255px;
+    height: 255px;
+    background-color: black;
+}
+
+
+
